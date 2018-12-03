@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Uploader</title>
+</head>
+<body>
+    <h1>Formulario </h1>
+
+    <form id="form">
+        <input name="username" placeholder="username" type="text">
+        <br>
+        <input name="email" placeholder="email" type="email">
+        <br>
+        <input type="submit">
+    </form>
+
+
+
+<script src="https://www.gstatic.com/firebasejs/5.6.0/firebase.js"></script>
+<script>
+  // Initialize Firebase
+  var config = {
+    apiKey: "AIzaSyDteNWSohoGFYAcvjjAcesliQz1Jm0SpKs",
+    authDomain: "testing-ac6cb.firebaseapp.com",
+    databaseURL: "https://testing-ac6cb.firebaseio.com",
+    projectId: "testing-ac6cb",
+    storageBucket: "testing-ac6cb.appspot.com",
+    messagingSenderId: "923452842776"
+  };
+  firebase.initializeApp(config);
+</script>
+    <script src="main.js"></script>
+</body>
+</html>
