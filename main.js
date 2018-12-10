@@ -155,13 +155,13 @@ class blissUploader {
   }
 }
 //instancia
-var uploader = new blissUploader(true);
-uploader.done = () => {
-  const body = {
-    username: uploader.form.username.value,
-    email: uploader.form.email.value,
-    files: uploader.links
-  };
-  //axios
-  console.log(body);
-};
+// var uploader = new blissUploader(true);
+// uploader.done = () => {
+//   const body = {
+//     username: uploader.form.username.value,
+//     email: uploader.form.email.value,
+//     files: uploader.links
+//   };
+//   //axios
+//   console.log(body);
+// };
